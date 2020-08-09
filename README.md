@@ -1,5 +1,7 @@
 # ストレス発散ツール
 
+[ストレス発散ツールへ](https://nukkonuko221.github.io/stressrelief/)
+
 これはストレス発散ツールです。
 
 愚痴を書きたいときにどうぞ。
