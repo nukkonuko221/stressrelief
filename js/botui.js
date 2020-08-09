@@ -4,7 +4,7 @@ var msgIndex, key;
 BOTUI.botui.message.add({
   delay: 500,
   photo: 'bot_icon_1.png',
-  content: 'ストレス発散ツールbeta 1.0'
+  content: 'ストレス発散ツール 詳細はこちら→ https://github.com/nukkonuko221/stressrelief'
 }).then(function () {
   BOTUI.botui.message.add({
     delay: 500,
