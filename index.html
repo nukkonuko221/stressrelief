@@ -1,0 +1,57 @@
+<!DOCTYPE html><html>
+<head>
+<meta charset="UTF-8">
+<html lang="jp">
+<meta name="viewport" content="width=device-width" />
+<title>chatbot</title>
+<!-- stylesheet, lib import -->
+<link rel="stylesheet" href="css/botui.min.css" />
+<link rel="stylesheet" href="css/botui-theme-default.css" />
+<script src="libs/es6-promise.auto.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+</head>
+<body>
+  <style>
+  .Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  padding: 10px;
+  background-color: rgb(240,240,240);
+  color: #000000;
+  box-shadow: 0 0 8px gray;
+
+  }
+
+  .ht {
+    left: 50;
+    text-align: center;
+    color: green;
+  }
+    a {
+      color: #2e8b57;
+      text-decoration: none;
+    }
+    @font-face {
+    font-family: 'NotoSansJP';
+    src: url('fonts/f-light.otf');
+    }
+    div {
+      font-family: 'NotoSansJP', sans-serif;
+    }
+
+
+    </style>
+  <div id="bot_app">
+    <bot-ui></bot-ui>
+</div>
+<!-- ライブラリ -->
+<script src="libs/vue.min.js"></script>
+<script src="libs/botui.min.js"></script>
+<script src="js/botui.js"></script>
+
+</body>
+</html>
